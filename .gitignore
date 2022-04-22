@@ -1,0 +1,15 @@
+# ignore all data files
+*.csv*
+*.zip
+strava_export*
+
+# no need to include scratch files
+r_scripts/*
+
+# r data 
+.DS_Store
+.RData
+.Rhistory
+
+# image files don't need to be saved either
+strava_project_md_files/*
